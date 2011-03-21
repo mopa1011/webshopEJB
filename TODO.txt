@@ -1,0 +1,27 @@
+TODO
+
+- bis 01.12.:
+  Bitte folgendes prüfen:
+  - Ist die ID vom Typ Long!
+  - Set-Methode für ID hinzufügen (wäre nett, wenn diese nach der getMethode steht)
+  - Alle Set & Get - Methoden bitte ans Ende der Klasse verschieben, 
+    also noch hinter equals(), hashCode() & toString
+  - ggf. equals(), hashCode() & toString anpassen, falls nicht alle notwendigen Attribute genutzt werden
+  	--> wollen wir nur die Basis-Attribute ausgeben oder auch die Objekte, z.B. lieferadresse?? 
+  
+  jeder bearbeitet die ihm zugewiesenen Klassen:
+	Robert  --> Artikel, Kategorie, KategorieHasArtikel
+	Stefan  --> Bestellung, Bestellposition
+	Beni    --> AbstractAdresse, Liefer-/Rechnungsadresse, 
+	Patrick --> Produktbewertung, Rolle, RolleHasBenutzer
+	Stephan --> AbstractBenutzer, Lager
+  
+
+- bis 03.12.:
+  - Überlegen welche NamedQueries für welche Klassen sinnvoll sind
+
+
+- am 04.12.:
+  Treffen wir uns in der FH (ich hoffe alle können),
+  damit wir das Thema Tests (Junit & DBunit) angehen  
+  und die Testklassen aufteilen können
